@@ -8,7 +8,9 @@
 
 apply plugin: 'java'
 apply plugin: 'application'
-
+mainClassName = "com.pelatro.adaptor.ncell.AdaptorRunner"
+group = 'com.pelatro.adaptor.ncell'
+version = '1.0.0-SNAPSHOT'
 repositories {
     ivy{
         url 'http://192.168.5.52:8081/artifactory/libs-release-local'
