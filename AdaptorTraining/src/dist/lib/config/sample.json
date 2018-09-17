@@ -1,0 +1,10 @@
+{
+	"client": {
+		"host": "127.0.0.1",
+		"port": 12001,
+		"batch-size": 100,
+		"batch-timeout": 1000,
+		"max-pending-batches":10,
+		"max-open-files":10
+	}
+}

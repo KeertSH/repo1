@@ -1,0 +1,980 @@
+2018-09-14 12:46:55 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 12:46:55 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 12:46:55 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 12:46:55 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 12:46:55 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 12:46:55 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 12:46:55 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 12:46:55 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 12:46:55 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 12:46:55 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 12:46:55 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 12:46:55 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 12:46:55 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 12:46:55 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 12:46:55 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 12:46:55 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 12:46:55 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 12:46:55 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 12:46:55 DbHenchman [INFO] Creating Session Factory
+2018-09-14 12:46:55 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 12:46:56 PeriodLookup [INFO] Loading periods...
+2018-09-14 12:46:56 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 12:46:56 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 12:46:56 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 12:46:56 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 12:46:56 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 12:46:56 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 12:46:56 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 12:46:56 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 12:46:56 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 12:46:56 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 12:46:56 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 12:46:56 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 12:46:56 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 12:46:56 NcellAdaptor [INFO] Run started
+2018-09-14 12:46:56 NcellAdaptor [INFO] Run ended
+2018-09-14 12:47:06 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 12:47:36 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 12:47:36 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 12:47:36 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 12:47:36 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 12:47:36 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 12:47:36 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 12:47:36 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 12:47:36 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 12:47:36 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 12:47:36 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 12:47:36 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 12:47:36 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 12:47:36 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 12:47:36 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 12:47:36 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 12:47:36 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 12:47:36 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 12:47:36 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 12:47:36 DbHenchman [INFO] Creating Session Factory
+2018-09-14 12:47:36 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 12:47:37 PeriodLookup [INFO] Loading periods...
+2018-09-14 12:47:37 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 12:47:37 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 12:47:37 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 12:47:37 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 12:47:37 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 12:47:37 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 12:47:37 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 12:47:37 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 12:47:37 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 12:47:37 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 12:47:37 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 12:47:37 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 12:47:37 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 12:47:37 NcellAdaptor [INFO] Run started
+2018-09-14 12:47:42 NcellAdaptor [INFO] Run ended
+2018-09-14 12:47:52 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 12:48:46 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 12:48:46 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 12:48:46 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 12:48:46 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 12:48:46 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 12:48:46 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 12:48:46 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 12:48:46 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 12:48:46 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 12:48:46 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 12:48:46 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 12:48:46 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 12:48:46 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 12:48:46 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 12:48:46 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 12:48:46 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 12:48:46 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 12:48:46 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 12:48:46 DbHenchman [INFO] Creating Session Factory
+2018-09-14 12:48:47 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 12:48:47 PeriodLookup [INFO] Loading periods...
+2018-09-14 12:48:47 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 12:48:47 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 12:48:47 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 12:48:47 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 12:48:47 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 12:48:47 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 12:48:47 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 12:48:47 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 12:48:47 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 12:48:47 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 12:48:47 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 12:48:47 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 12:48:47 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 12:48:48 NcellAdaptor [INFO] Run started
+2018-09-14 12:48:53 NcellAdaptor [INFO] Run ended
+2018-09-14 12:49:03 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 12:49:32 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 12:49:32 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 12:49:32 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 12:49:32 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 12:49:32 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 12:49:32 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 12:49:32 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 12:49:32 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 12:49:32 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 12:49:32 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 12:49:32 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 12:49:32 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 12:49:32 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 12:49:32 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 12:49:32 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 12:49:32 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 12:49:32 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 12:49:32 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 12:49:32 DbHenchman [INFO] Creating Session Factory
+2018-09-14 12:49:32 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 12:49:33 PeriodLookup [INFO] Loading periods...
+2018-09-14 12:49:33 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 12:49:33 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 12:49:33 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 12:49:33 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 12:49:33 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 12:49:33 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 12:49:33 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 12:49:33 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 12:49:33 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 12:49:33 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 12:49:33 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 12:49:33 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 12:49:33 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 12:49:33 NcellAdaptor [INFO] Run started
+2018-09-14 12:49:33 NcellAdaptor [INFO] Run ended
+2018-09-14 12:49:43 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 13:01:27 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 13:01:27 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 13:01:27 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 13:01:27 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 13:01:27 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 13:01:27 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 13:01:27 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 13:01:27 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 13:01:27 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 13:01:27 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 13:01:27 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 13:01:27 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 13:01:27 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 13:01:27 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 13:01:27 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 13:01:27 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 13:01:27 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 13:01:27 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 13:01:27 DbHenchman [INFO] Creating Session Factory
+2018-09-14 13:01:27 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 13:01:28 PeriodLookup [INFO] Loading periods...
+2018-09-14 13:01:28 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 13:01:28 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 13:01:28 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 13:01:28 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 13:01:28 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 13:01:28 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 13:01:28 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 13:01:28 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 13:01:28 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 13:01:28 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 13:01:28 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 13:01:28 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 13:01:28 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 13:01:28 NcellAdaptor [INFO] Run started
+2018-09-14 13:01:28 NcellAdaptor [INFO] Run ended
+2018-09-14 13:01:38 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 14:22:10 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 14:22:10 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 14:22:10 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 14:22:10 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 14:22:10 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 14:22:10 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 14:22:10 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 14:22:10 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 14:22:10 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 14:22:10 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 14:22:10 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 14:22:10 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 14:22:10 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 14:22:10 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 14:22:10 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 14:22:10 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 14:22:10 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 14:22:10 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 14:22:10 DbHenchman [INFO] Creating Session Factory
+2018-09-14 14:22:10 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 14:22:11 PeriodLookup [INFO] Loading periods...
+2018-09-14 14:22:11 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 14:22:11 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 14:22:11 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 14:22:11 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 14:22:11 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 14:22:11 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 14:22:11 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 14:22:11 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 14:22:11 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 14:22:11 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 14:22:11 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 14:22:11 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 14:22:11 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 14:22:11 NcellAdaptor [INFO] Run started
+2018-09-14 14:22:11 OCSVoiceAdaptor [INFO] rec20180716_202_040096.unl:Processed/Parsed/Rejected/Skipped/Invalid Subscriber: 334/334/0/0/0
+2018-09-14 14:22:16 NcellAdaptor [INFO] Run ended
+2018-09-14 14:22:26 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:16:38 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:16:38 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:16:38 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:16:38 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:16:38 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:16:38 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:16:38 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:16:38 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:16:38 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:16:38 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:16:38 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:16:38 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:16:38 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:16:38 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:16:38 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:16:38 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:16:38 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:16:38 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:16:38 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:16:38 DbHenchman [ERROR] Initial SessionFactory creation failed. org.hibernate.MappingException: Unable to load class [ com.pelatro.adaptor.ncell.db.dto.Period] declared in Hibernate configuration <mapping/> entry
+2018-09-14 16:16:38 AdaptorRunner [FATAL] null
+java.lang.ExceptionInInitializerError: null
+	at com.pelatro.adaptor.ncell.db.DbHenchman._createSessionFactory(DbHenchman.java:62) ~[main/:?]
+	at com.pelatro.adaptor.ncell.db.DbHenchman.<init>(DbHenchman.java:23) ~[main/:?]
+	at com.pelatro.adaptor.ncell.db.DbHenchman.getHenchman(DbHenchman.java:37) ~[main/:?]
+	at com.pelatro.adaptor.ncell.db.PeriodLookup.initialize(PeriodLookup.java:27) ~[main/:?]
+	at com.pelatro.adaptor.ncell.ocs.voice.OCSVoiceAdaptor.<init>(OCSVoiceAdaptor.java:42) ~[main/:?]
+	at com.pelatro.adaptor.ncell.AdaptorRunner.getAdaptor(AdaptorRunner.java:143) ~[main/:?]
+	at com.pelatro.adaptor.ncell.AdaptorRunner.run(AdaptorRunner.java:125) ~[main/:?]
+	at com.pelatro.adaptor.ncell.AdaptorRunner.main(AdaptorRunner.java:158) [main/:?]
+Caused by: org.hibernate.MappingException: Unable to load class [ com.pelatro.adaptor.ncell.db.dto.Period] declared in Hibernate configuration <mapping/> entry
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2281) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.parseSessionFactory(Configuration.java:2229) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2209) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2162) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2077) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at com.pelatro.adaptor.ncell.db.DbHenchman._createSessionFactory(DbHenchman.java:51) ~[main/:?]
+	... 7 more
+Caused by: java.lang.ClassNotFoundException: com.pelatro.adaptor.ncell.db.dto.Period
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366) ~[?:1.7.0_79]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355) ~[?:1.7.0_79]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.7.0_79]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354) ~[?:1.7.0_79]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425) ~[?:1.7.0_79]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308) ~[?:1.7.0_79]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358) ~[?:1.7.0_79]
+	at java.lang.Class.forName0(Native Method) ~[?:1.7.0_79]
+	at java.lang.Class.forName(Class.java:191) ~[?:1.7.0_79]
+	at org.hibernate.internal.util.ReflectHelper.classForName(ReflectHelper.java:193) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2278) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.parseSessionFactory(Configuration.java:2229) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2209) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2162) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2077) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at com.pelatro.adaptor.ncell.db.DbHenchman._createSessionFactory(DbHenchman.java:51) ~[main/:?]
+	... 7 more
+2018-09-14 16:18:48 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:18:48 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:18:48 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:18:48 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:18:48 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:18:48 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:18:48 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:18:48 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:18:48 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:18:48 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:18:48 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:18:48 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:18:48 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:18:48 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:18:48 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:18:48 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:18:48 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:18:48 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:18:48 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:18:48 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:18:49 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:18:49 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:18:49 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:18:49 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:18:49 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:18:49 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:18:49 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:18:49 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:18:49 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:18:49 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:18:49 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:18:49 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:18:49 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:18:49 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:18:49 NcellAdaptor [INFO] Run started
+2018-09-14 16:18:49 NcellAdaptor [INFO] Run ended
+2018-09-14 16:18:59 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:24:20 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:24:20 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:24:20 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:24:20 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:24:20 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:24:20 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:24:20 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:24:20 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:24:20 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:24:20 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:24:20 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:24:20 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:24:20 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:24:20 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:24:20 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:24:20 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:24:20 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:24:20 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:24:20 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:24:21 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:24:21 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:24:21 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:24:21 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:24:21 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:24:21 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:24:21 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:24:21 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:24:21 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:24:21 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:24:21 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:24:21 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:24:21 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:24:21 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:24:21 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:24:21 NcellAdaptor [INFO] Run started
+2018-09-14 16:24:21 NcellAdaptor [INFO] Run ended
+2018-09-14 16:24:31 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:26:43 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:26:43 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:26:43 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:26:43 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:26:43 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:26:43 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:26:43 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:26:43 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:26:43 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:26:43 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:26:43 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:26:43 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:26:43 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:26:43 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:26:43 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:26:43 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:26:43 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:26:43 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:26:43 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:26:43 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:26:44 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:26:44 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:26:44 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:26:44 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:26:44 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:26:44 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:26:44 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:26:44 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:26:44 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:26:44 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:26:44 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:26:44 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:26:44 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:26:44 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:26:44 NcellAdaptor [INFO] Run started
+2018-09-14 16:26:44 NcellAdaptor [INFO] Run ended
+2018-09-14 16:26:54 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:27:33 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:27:33 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:27:33 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:27:33 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:27:33 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:27:33 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:27:33 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:27:33 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:27:33 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:27:33 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:27:33 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:27:33 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:27:33 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:27:33 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:27:33 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:27:33 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:27:33 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:27:33 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:27:33 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:27:33 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:27:34 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:27:34 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:27:34 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:27:34 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:27:34 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:27:34 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:27:34 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:27:34 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:27:34 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:27:34 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:27:34 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:27:34 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:27:34 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:27:34 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:27:34 NcellAdaptor [INFO] Run started
+2018-09-14 16:27:34 SubscriberIDLookup [INFO] Constructing SubscriberID-DB
+2018-09-14 16:27:34 SubscriberIDLookup [INFO] Loading Subscriber Details....
+2018-09-14 16:27:34 NcellAdaptor [ERROR] DB related exception. Executing ON_FAIL and terminating
+org.hibernate.hql.internal.ast.QuerySyntaxException: Subscriber is not mapped [From Subscriber]
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:96) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:120) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:234) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:158) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:131) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:93) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:167) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:301) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:236) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at com.pelatro.adaptor.ncell.db.SubscriberIDLookup.<init>(SubscriberIDLookup.java:26) ~[main/:?]
+	at com.pelatro.adaptor.ncell.db.SubscriberIDLookup.initialize(SubscriberIDLookup.java:47) ~[main/:?]
+	at com.pelatro.adaptor.ncell.ocs.voice.OCSVoiceRecord.<init>(OCSVoiceRecord.java:76) ~[main/:?]
+	at com.pelatro.adaptor.ncell.ocs.voice.OCSVoiceAdaptor.processFile(OCSVoiceAdaptor.java:61) ~[main/:?]
+	at com.pelatro.adaptor.ncell.common.NcellAdaptor.process(NcellAdaptor.java:60) [main/:?]
+	at com.pelatro.adaptor.ncell.AdaptorRunner.run(AdaptorRunner.java:127) [main/:?]
+	at com.pelatro.adaptor.ncell.AdaptorRunner.main(AdaptorRunner.java:158) [main/:?]
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: Subscriber is not mapped
+	at org.hibernate.hql.internal.ast.util.SessionFactoryHelper.requireClassPersister(SessionFactoryHelper.java:189) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.tree.FromElementFactory.addFromElement(FromElementFactory.java:109) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.tree.FromClause.addFromElement(FromClause.java:95) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createFromElement(HqlSqlWalker.java:338) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElement(HqlSqlBaseWalker.java:3678) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElementList(HqlSqlBaseWalker.java:3567) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromClause(HqlSqlBaseWalker.java:708) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:564) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:301) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:249) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:278) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:206) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	... 13 more
+2018-09-14 16:27:39 AdaptorRunner [FATAL] Subscriber is not mapped [From Subscriber]
+org.hibernate.hql.internal.ast.QuerySyntaxException: Subscriber is not mapped [From Subscriber]
+	at org.hibernate.hql.internal.ast.QuerySyntaxException.generateQueryException(QuerySyntaxException.java:96) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.QueryException.wrapWithQueryString(QueryException.java:120) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:234) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.compile(QueryTranslatorImpl.java:158) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:131) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.<init>(HQLQueryPlan.java:93) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.engine.query.spi.QueryPlanCache.getHQLQueryPlan(QueryPlanCache.java:167) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.AbstractSessionImpl.getHQLQueryPlan(AbstractSessionImpl.java:301) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.internal.AbstractSessionImpl.createQuery(AbstractSessionImpl.java:236) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at com.pelatro.adaptor.ncell.db.SubscriberIDLookup.<init>(SubscriberIDLookup.java:26) ~[main/:?]
+	at com.pelatro.adaptor.ncell.db.SubscriberIDLookup.initialize(SubscriberIDLookup.java:47) ~[main/:?]
+	at com.pelatro.adaptor.ncell.ocs.voice.OCSVoiceRecord.<init>(OCSVoiceRecord.java:76) ~[main/:?]
+	at com.pelatro.adaptor.ncell.ocs.voice.OCSVoiceAdaptor.processFile(OCSVoiceAdaptor.java:61) ~[main/:?]
+	at com.pelatro.adaptor.ncell.common.NcellAdaptor.process(NcellAdaptor.java:60) ~[main/:?]
+	at com.pelatro.adaptor.ncell.AdaptorRunner.run(AdaptorRunner.java:127) ~[main/:?]
+	at com.pelatro.adaptor.ncell.AdaptorRunner.main(AdaptorRunner.java:158) [main/:?]
+Caused by: org.hibernate.hql.internal.ast.QuerySyntaxException: Subscriber is not mapped
+	at org.hibernate.hql.internal.ast.util.SessionFactoryHelper.requireClassPersister(SessionFactoryHelper.java:189) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.tree.FromElementFactory.addFromElement(FromElementFactory.java:109) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.tree.FromClause.addFromElement(FromClause.java:95) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.HqlSqlWalker.createFromElement(HqlSqlWalker.java:338) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElement(HqlSqlBaseWalker.java:3678) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromElementList(HqlSqlBaseWalker.java:3567) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.fromClause(HqlSqlBaseWalker.java:708) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.query(HqlSqlBaseWalker.java:564) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.selectStatement(HqlSqlBaseWalker.java:301) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.antlr.HqlSqlBaseWalker.statement(HqlSqlBaseWalker.java:249) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.analyze(QueryTranslatorImpl.java:278) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.doCompile(QueryTranslatorImpl.java:206) ~[hibernate-core-4.3.11.Final.jar:4.3.11.Final]
+	... 13 more
+2018-09-14 16:31:11 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:31:11 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:31:11 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:31:11 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:31:11 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:31:11 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:31:11 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:31:11 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:31:11 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:31:11 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:31:11 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:31:11 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:31:11 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:31:11 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:31:11 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:31:11 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:31:11 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:31:11 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:31:11 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:31:11 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:31:12 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:31:12 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:31:12 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:31:12 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:31:12 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:31:12 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:31:12 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:31:12 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:31:12 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:31:12 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:31:12 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:31:12 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:31:12 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:31:12 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:31:12 NcellAdaptor [INFO] Run started
+2018-09-14 16:31:12 NcellAdaptor [INFO] Run ended
+2018-09-14 16:31:22 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:31:29 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:31:29 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:31:29 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:31:29 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:31:29 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:31:29 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:31:29 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:31:29 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:31:29 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:31:29 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:31:29 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:31:29 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:31:29 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:31:29 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:31:29 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:31:29 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:31:29 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:31:29 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:31:29 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:31:29 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:31:30 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:31:30 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:31:30 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:31:30 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:31:30 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:31:30 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:31:30 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:31:30 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:31:30 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:31:30 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:31:30 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:31:30 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:31:30 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:31:30 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:31:30 NcellAdaptor [INFO] Run started
+2018-09-14 16:31:30 SubscriberIDLookup [INFO] Constructing SubscriberID-DB
+2018-09-14 16:31:30 SubscriberIDLookup [INFO] Loading Subscriber Details....
+2018-09-14 16:31:30 SubscriberIDLookup [INFO] ... 1 Subscriber Details slurped ...
+2018-09-14 16:31:30 SubscriberIDLookup [INFO] ... 1 Subscriber Details loaded ..
+2018-09-14 16:31:31 OCSVoiceAdaptor [INFO] rec20180716_202_040096.unl:Processed/Parsed/Rejected/Skipped/Invalid Subscriber: 334/334/0/0/0
+2018-09-14 16:31:36 NcellAdaptor [INFO] Run ended
+2018-09-14 16:31:46 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:40:56 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:40:56 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:40:56 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:40:56 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:40:56 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:40:56 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:40:56 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:40:56 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:40:56 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:40:56 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:40:56 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:40:56 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:40:56 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:40:56 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:40:56 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:40:56 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:40:56 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:40:56 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:40:56 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:40:57 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:40:58 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:40:58 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:40:58 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:40:58 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:40:58 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:40:58 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:40:58 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:40:58 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:40:58 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:40:58 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:40:58 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:40:58 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:40:58 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:40:58 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:40:58 NcellAdaptor [INFO] Run started
+2018-09-14 16:40:58 NcellAdaptor [INFO] Run ended
+2018-09-14 16:41:08 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:41:45 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:41:45 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:41:45 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:41:45 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:41:45 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:41:45 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:41:45 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:41:45 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:41:45 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:41:45 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:41:45 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:41:45 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:41:45 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:41:45 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:41:45 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:41:45 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:41:45 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:41:45 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:41:45 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:41:45 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:41:46 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:41:46 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:41:46 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:41:46 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:41:46 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:41:46 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:41:46 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:41:46 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:41:46 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:41:46 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:41:46 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:41:46 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:41:46 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:41:46 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:41:46 NcellAdaptor [INFO] Run started
+2018-09-14 16:41:46 SubscriberIDLookup [INFO] Constructing SubscriberID-DB
+2018-09-14 16:41:46 SubscriberIDLookup [INFO] Loading Subscriber Details....
+2018-09-14 16:41:46 SubscriberIDLookup [INFO] ... 1 Subscriber Details slurped ...
+2018-09-14 16:41:46 SubscriberIDLookup [INFO] ... 1 Subscriber Details loaded ..
+2018-09-14 16:41:46 OCSVoiceAdaptor [INFO] rec20180716_202_040096.unl:Processed/Parsed/Rejected/Skipped/Invalid Subscriber: 334/334/0/0/0
+2018-09-14 16:41:51 NcellAdaptor [INFO] Run ended
+2018-09-14 16:42:01 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:46:03 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:46:03 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:46:03 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:46:03 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:46:03 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:46:03 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:46:03 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:46:03 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:46:03 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:46:03 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:46:03 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:46:03 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:46:03 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:46:03 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:46:03 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:46:03 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:46:03 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:46:03 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:46:03 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:46:03 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:46:04 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:46:04 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:46:04 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:46:04 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:46:04 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:46:04 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:46:04 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:46:04 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:46:04 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:46:04 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:46:04 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:46:04 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:46:04 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:46:04 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:46:04 NcellAdaptor [INFO] Run started
+2018-09-14 16:46:04 SubscriberIDLookup [INFO] Constructing SubscriberID-DB
+2018-09-14 16:46:04 SubscriberIDLookup [INFO] Loading Subscriber Details....
+2018-09-14 16:46:04 SubscriberIDLookup [INFO] ... 1 Subscriber Details slurped ...
+2018-09-14 16:46:04 SubscriberIDLookup [INFO] ... 1 Subscriber Details loaded ..
+2018-09-14 16:46:04 OCSVoiceAdaptor [INFO] rec20180716_202_040096.unl:Processed/Parsed/Rejected/Skipped/Invalid Subscriber: 334/334/0/0/0
+2018-09-14 16:46:09 NcellAdaptor [INFO] Run ended
+2018-09-14 16:46:19 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:46:33 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:46:33 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:46:33 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:46:33 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:46:33 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:46:33 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:46:33 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:46:33 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:46:33 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:46:33 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:46:33 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:46:33 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:46:33 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:46:33 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:46:33 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:46:33 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:46:33 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:46:33 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:46:33 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:46:33 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:46:34 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:46:34 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:46:34 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:46:34 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:46:34 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:46:34 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:46:34 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:46:34 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:46:34 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:46:34 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:46:34 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:46:34 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:46:34 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:46:34 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:46:34 NcellAdaptor [INFO] Run started
+2018-09-14 16:46:34 NcellAdaptor [INFO] Run ended
+2018-09-14 16:46:43 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:46:43 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:46:43 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:46:43 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:46:43 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:46:43 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:46:43 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:46:43 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:46:43 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:46:43 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:46:43 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:46:43 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:46:43 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:46:43 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:46:43 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:46:43 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:46:43 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:46:43 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:46:43 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:46:43 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:46:44 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:46:44 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:46:44 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:46:44 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:46:44 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:46:44 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:46:44 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:46:44 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:46:44 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:46:44 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:46:44 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:46:44 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:46:44 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:46:44 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:46:44 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:46:44 NcellAdaptor [INFO] Run started
+2018-09-14 16:46:44 SubscriberIDLookup [INFO] Constructing SubscriberID-DB
+2018-09-14 16:46:44 SubscriberIDLookup [INFO] Loading Subscriber Details....
+2018-09-14 16:46:44 SubscriberIDLookup [INFO] ... 1 Subscriber Details slurped ...
+2018-09-14 16:46:44 SubscriberIDLookup [INFO] ... 1 Subscriber Details loaded ..
+2018-09-14 16:46:44 OCSVoiceAdaptor [INFO] rec20180716_202_040096.unl:Processed/Parsed/Rejected/Skipped/Invalid Subscriber: 334/334/0/0/0
+2018-09-14 16:46:49 NcellAdaptor [INFO] Run ended
+2018-09-14 16:46:59 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:49:16 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:49:16 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:49:16 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:49:16 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:49:16 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:49:16 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:49:16 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:49:16 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:49:16 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:49:16 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:49:16 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:49:16 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:49:16 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:49:16 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:49:16 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:49:16 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:49:16 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:49:16 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:49:16 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:49:16 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:49:17 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:49:17 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:49:17 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:49:17 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:49:17 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:49:17 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:49:17 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:49:17 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:49:17 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:49:17 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:49:17 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:49:17 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:49:17 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:49:17 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:49:17 NcellAdaptor [INFO] Run started
+2018-09-14 16:49:17 SubscriberIDLookup [INFO] Constructing SubscriberID-DB
+2018-09-14 16:49:17 SubscriberIDLookup [INFO] Loading Subscriber Details....
+2018-09-14 16:49:17 SubscriberIDLookup [INFO] ... 1 Subscriber Details slurped ...
+2018-09-14 16:49:17 SubscriberIDLookup [INFO] ... 1 Subscriber Details loaded ..
+2018-09-14 16:49:17 OCSVoiceAdaptor [INFO] rec20180716_202_040096.unl:Processed/Parsed/Rejected/Skipped/Invalid Subscriber: 334/334/0/0/0
+2018-09-14 16:49:22 NcellAdaptor [INFO] Run ended
+2018-09-14 16:49:32 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 16:51:49 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 16:51:49 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 16:51:49 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 16:51:49 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:51:49 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 16:51:49 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 16:51:49 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 16:51:49 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 16:51:49 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 16:51:49 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 16:51:49 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 16:51:49 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 16:51:49 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 16:51:49 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 16:51:49 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 16:51:49 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 16:51:49 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 16:51:49 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 16:51:49 DbHenchman [INFO] Creating Session Factory
+2018-09-14 16:51:49 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 16:51:50 PeriodLookup [INFO] Loading periods...
+2018-09-14 16:51:50 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 16:51:50 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 16:51:50 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 16:51:50 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 16:51:50 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 16:51:50 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:51:50 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:51:50 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:51:50 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 16:51:50 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 16:51:50 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 16:51:50 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 16:51:50 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 16:51:50 NcellAdaptor [INFO] Run started
+2018-09-14 16:51:50 SubscriberIDLookup [INFO] Constructing SubscriberID-DB
+2018-09-14 16:51:50 SubscriberIDLookup [INFO] Loading Subscriber Details....
+2018-09-14 16:51:50 SubscriberIDLookup [INFO] ... 1 Subscriber Details slurped ...
+2018-09-14 16:51:50 SubscriberIDLookup [INFO] ... 1 Subscriber Details loaded ..
+2018-09-14 16:51:50 OCSVoiceAdaptor [INFO] rec20180716_202_040096.unl:Processed/Parsed/Rejected/Skipped/Invalid Subscriber: 334/334/0/0/0
+2018-09-14 16:51:55 NcellAdaptor [INFO] Run ended
+2018-09-14 16:52:05 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 17:09:53 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 17:09:53 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 17:09:53 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 17:09:53 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 17:09:53 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 17:09:53 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 17:09:53 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 17:09:53 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 17:09:53 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 17:09:53 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 17:09:53 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 17:09:53 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 17:09:53 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 17:09:53 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 17:09:53 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 17:09:53 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 17:09:53 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 17:09:53 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 17:09:53 DbHenchman [INFO] Creating Session Factory
+2018-09-14 17:09:53 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 17:09:54 PeriodLookup [INFO] Loading periods...
+2018-09-14 17:09:54 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 17:09:54 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 17:09:54 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 17:09:54 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 17:09:54 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 17:09:54 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 17:09:54 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 17:09:54 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 17:09:54 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 17:09:54 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 17:09:54 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 17:09:54 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 17:09:54 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 17:09:54 NcellAdaptor [INFO] Run started
+2018-09-14 17:09:54 SubscriberIDLookup [INFO] Constructing SubscriberID-DB
+2018-09-14 17:09:54 SubscriberIDLookup [INFO] Loading Subscriber Details....
+2018-09-14 17:09:54 SubscriberIDLookup [INFO] ... 1 Subscriber Details slurped ...
+2018-09-14 17:09:54 SubscriberIDLookup [INFO] ... 1 Subscriber Details loaded ..
+2018-09-14 17:09:54 OCSVoiceAdaptor [INFO] rec20180716_202_040096.unl:Processed/Parsed/Rejected/Skipped/Invalid Subscriber: 667/334/0/0/333
+2018-09-14 17:09:59 NcellAdaptor [INFO] Run ended
+2018-09-14 17:10:09 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 17:15:59 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 17:15:59 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 17:15:59 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 17:15:59 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 17:15:59 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 17:15:59 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 17:15:59 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 17:15:59 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 17:15:59 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 17:15:59 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 17:15:59 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 17:15:59 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 17:15:59 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 17:15:59 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 17:15:59 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 17:15:59 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 17:15:59 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 17:15:59 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 17:15:59 DbHenchman [INFO] Creating Session Factory
+2018-09-14 17:15:59 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 17:16:00 PeriodLookup [INFO] Loading periods...
+2018-09-14 17:16:00 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 17:16:00 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 17:16:00 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 17:16:00 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 17:16:00 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 17:16:00 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 17:16:00 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 17:16:00 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 17:16:00 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 17:16:00 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 17:16:00 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 17:16:00 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 17:16:00 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 17:16:00 NcellAdaptor [INFO] Run started
+2018-09-14 17:16:00 SubscriberIDLookup [INFO] Constructing SubscriberID-DB
+2018-09-14 17:16:00 SubscriberIDLookup [INFO] Loading Subscriber Details....
+2018-09-14 17:16:00 SubscriberIDLookup [INFO] ... 1 Subscriber Details slurped ...
+2018-09-14 17:16:00 SubscriberIDLookup [INFO] ... 1 Subscriber Details loaded ..
+2018-09-14 17:16:01 OCSVoiceAdaptor [INFO] rec20180716_202_040096.unl:Processed/Parsed/Rejected/Skipped/Invalid Subscriber: 667/334/0/0/333
+2018-09-14 17:16:06 NcellAdaptor [INFO] Run ended
+2018-09-14 17:16:16 AdaptorRunner [INFO] Stopping Adaptor....
+2018-09-14 17:19:33 AdaptorRunner [INFO] Adaptor is starting with options:{containsHeader=false, skip_db_logging=false, useCache=false, source_label=file, config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/streams.cfg, daemon=false, cabinet_config=/home/dikshit/Projects/ncell/ncell-adaptor/src/dist/lib/config/sample.json, type=ocs_voice}
+2018-09-14 17:19:33 AdaptorRunner [INFO] Configuring STREAM using ocs_voice ...
+2018-09-14 17:19:33 vanillaLogger [INFO]   on_next select  %file% from '/home/dikshit/Projects/ncell/SampleData/data/C
+2018-09-14 17:19:33 vanillaLogger [INFO]   opied/voice' source  %source% from '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 17:19:33 vanillaLogger [INFO]   /data/Source/voice/%file%' delete  '/home/dikshit/Projects/ncell/SampleData
+2018-09-14 17:19:33 vanillaLogger [INFO]   /data/Copied/voice/%file%' on_parse write   %record% to
+2018-09-14 17:19:33 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Parsed/voice/%file%'
+2018-09-14 17:19:33 vanillaLogger [INFO]    on_reject write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/R
+2018-09-14 17:19:33 vanillaLogger [INFO]   eject/voice/%file%' write   %reason% to '/home/dikshit/Projects/ncell/Sampl
+2018-09-14 17:19:33 vanillaLogger [INFO]   eData/data/Reject/Log/voice/%file%.log' write   %filter% to
+2018-09-14 17:19:33 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Reject/voice/%file%_invalid'
+2018-09-14 17:19:33 vanillaLogger [INFO]    on_skip write   %raw% to '/home/dikshit/Projects/ncell/SampleData/data/Ski
+2018-09-14 17:19:33 vanillaLogger [INFO]   p/voice/%file%_skip' write   %reason% to '/home/dikshit/Projects/ncell/Samp
+2018-09-14 17:19:33 vanillaLogger [INFO]   leData/data/Log/%file%_skip.log' on_complete append  %summary% to
+2018-09-14 17:19:33 vanillaLogger [INFO]    '/home/dikshit/Projects/ncell/SampleData/data/Log/voice/%file%.log' touch
+2018-09-14 17:19:33 vanillaLogger [INFO]      '/home/dikshit/Projects/ncell/SampleData/data/ParsedCopy/voice/%file%'
+2018-09-14 17:19:33 OCSVoiceAdaptor [INFO] Initializing Prepaid OCS Voice Adaptor
+2018-09-14 17:19:33 DbHenchman [INFO] DBHenchman getting started..
+2018-09-14 17:19:33 DbHenchman [INFO] Creating Session Factory
+2018-09-14 17:19:33 DbHenchman [INFO] Created Sesssion Factory Successfully
+2018-09-14 17:19:34 PeriodLookup [INFO] Loading periods...
+2018-09-14 17:19:34 PeriodLookup [INFO] ... 3 Periods slurped ...
+2018-09-14 17:19:34 PeriodLookup [INFO] ... 3 Periods registered..
+2018-09-14 17:19:34 AccountDetailsInfo [INFO] Loading Account Info Details...
+2018-09-14 17:19:34 AccountDetailsInfo [INFO] ... 15 Account Details slurped ...
+2018-09-14 17:19:34 AccountDetailsInfo [INFO] ... 15 Account Details loaded ..
+2018-09-14 17:19:34 NumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 17:19:34 NumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 17:19:34 NumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 17:19:34 CellIdDetailsLookup [INFO] Constructing CellIdDetailsDB.
+2018-09-14 17:19:34 OffnetNumberPrefixLookup [INFO] Loading NetworkCode and Operator Details...
+2018-09-14 17:19:34 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode slurped ...
+2018-09-14 17:19:34 OffnetNumberPrefixLookup [INFO] ... 0 NetworkCode registered..
+2018-09-14 17:19:34 ShortCodeLookup [INFO] Constructing ShortCodeDetailsDB.
+2018-09-14 17:19:34 NcellAdaptor [INFO] Run started
+2018-09-14 17:19:34 SubscriberIDLookup [INFO] Constructing SubscriberID-DB
+2018-09-14 17:19:34 SubscriberIDLookup [INFO] Loading Subscriber Details....
+2018-09-14 17:19:34 SubscriberIDLookup [INFO] ... 1 Subscriber Details slurped ...
+2018-09-14 17:19:34 SubscriberIDLookup [INFO] ... 1 Subscriber Details loaded ..
+2018-09-14 17:19:34 OCSVoiceAdaptor [INFO] rec20180716_202_040096.unl:Processed/Parsed/Rejected/Skipped/Invalid Subscriber: 334/1/0/0/333
+2018-09-14 17:19:39 NcellAdaptor [INFO] Run ended
+2018-09-14 17:19:49 AdaptorRunner [INFO] Stopping Adaptor....
